@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+  
+body, p, h1, h2, h3 ,h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.body-all {
+    width: 100%;
+    height: 8000px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.brand-header {
+    width: 15%;
+    height: 100px;
+    
+}
+
+.home-header {
+    width: 50%;
+    height: 100px;
+    padding: 40px 0 0 40px;
+}
+
+.home-header a:hover {
+    color: rgb(173, 137, 19);
+}
+
+.home-header a {
+    text-decoration: none;
+    padding-right: 40px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contact-me {
+    width: 35%;
+    height: 100px;
+    display: flex;
+}
+
+.number-phone {
+    width: 40%;
+    height: 100px;
+}
+
+.contact-app {
+    width: 32.5%;
+    height: 100px;
+}
+
+.search-me {
+    width: 20%;
+    height: 100px;
+    margin-left: 42px;
+}
+
+.date-search {
+    background: #040e27;
+    width: 100%;
+    height: 165px;
+    display: flex;
+}
+
+.date-search p {
+  font-size: 30px;
+  color: white;
+  padding: 55px 0 0 170px;
+}
+
+
+.title-slide {    
+    width: 32%;
+    height: 165px;
+}
+
+
+
+.go-date {    
+    width: 48%;
+    height: 165px;
+    padding-top: 65px;
+    text-align: center;
+}
+
+.travel-type {  
+    width: 20%;
+    height: 165px;
+    padding-top: 65px;  
+}
+
+.popular-title h3 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #040e27;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.popular-title p {
+    font-size: 18px;
+    color: #7a838b;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.popular-img {
+    width: 100%;
+    height: 850px;
+    padding: 80px 0 0 260px;
+    display: flex;
+}
+
+.popular-1 {
+    width: 30%;
+    height: 700px;
+}
+
+.popular-2 {
+    width: 30%;
+    height: 700px;
+}
+
+.popular-3 {
+    width: 30%;
+    height: 700px;
+}
+
+.popular-img-1 {
+    width: 80%;
+    height: 300px;
+}
+
+.popular-img-1 img {
+    border-radius: 15px;
+}
+
+.popular-img-1 img:hover {
+    transition: transform 0.9s;
+    transform: scale(1.1); 
+}
+
+.popular-img-2 {
+    width: 80%;
+    height: 300px;
+    margin-top: 70px;
+}
+
+.popular-img-2 img {
+    border-radius: 15px;
+}
+
+.popular-img-2 img:hover {
+    transition: transform 0.9s;
+    transform: scale(1.1); 
+}
+
+.clear {
+    height: 40px;
+    width: 100%;
+    background: white;
+}
+
+.subscribe {
+    background-image: url(./a12.JPG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 260px;
+    
+}
+
+.img-sub h4 {
+    color: white;
+    font-size: 24px;
+}
+
+.img-sub p {
+    color: #aab1b7;
+    font-size: 16px; 
+}
+
+.img-sub {
+    background: #040e27;
+    width: 100%;
+    height: 220px;
+    opacity: .5;
+    display: flex;  
+}
+
+.title-sub {
+    width: 50%;
+    height: 400px;
+    padding: 80px 0 0 0;
+    text-align: right;
+}
+
+
+.mail {
+    width: 50%;
+    height: 400px;
+    padding: 100px 0 0 30px;
+}
+
+.popular-img-1 {
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    border-radius: 15px;
+}
+
+.popular-img-2 {
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    border-radius: 15px;
+}
+
+.more-places {
+    text-align: center;
+}
+
+.enjoy-video {
+    height: 620px;
+    width: 100%;
+}
+
+.date p {
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: ##7a838b;
+    opacity: .6;
+}
+
+.date h3 {
+    color: #040e27;
+    font-size: 22px;
+}
+
+.date h3:hover {
+    color: red;
+}
+
+.popular-img-12 {
+    width: 100%;
+    height: 600px;
+    padding: 80px 0 0 260px;
+    display: flex;
+}
+
+.footer {
+    background: #040e27;
+    width: 100%;
+    height: 600px;
+}
