@@ -9,7 +9,7 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 
 .body-all {
     width: 100%;
-    height: 5000px;
+    height: 5340px;
 }
 
 .header {
@@ -83,14 +83,18 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .icon-contact .icon_1 {
     margin-left: 10px;
     font-size: 25px;
-    color: #21252987;
+    color: #AAB1B7;
+}
+
+.icon_1:hover {
+    color: #e6767c;
 }
 
 .search-me {
     width: 25%;
     height: 100px;
     margin-left: 42px;
-    background: red;
+    background: #FF4A52;
 }
 .search-me .icon-search{
     margin: 42px 0 0 50px;
@@ -387,6 +391,24 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .enjoy-video {
     height: 620px;
     width: 100%;
+    font-family: 'Nothing You Could Do', cursive;
+
+}
+
+.enjoy-video .enjoy-icon {
+    position: relative;
+    top: -500px;
+    left: 520px;
+    color: white;
+    font-size: 80px;
+}
+
+.enjoy-icon button {
+    font-size: 50px;
+    opacity: 0.5;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-left: 200px;
 }
 
 .date p {
@@ -416,7 +438,7 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .footer {
     background: #040e27;
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
 
 .footer-top {
@@ -428,113 +450,145 @@ body, p, h1, h2, h3 ,h4, h5, h6 {
 .travelo {
     width: 30%;
     height: 450px;
-    padding-left: 100px;
+    padding-left: 70px;
     padding-top: 70px;
+    color: #aab1b7;
+    font-size: 18px;
+}
+
+
+.travelo a {
+    text-decoration: none;
+    color: #aab1b7;
+}
+
+.travelo p {
+    padding-top: 40px;
+    padding-left: 24px;
+    line-height: 36px;
+}
+
+
+.footer-icon-contact {
+    font-size: 20px;
+}
+
+.icon-2 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.icon-2:hover {
+    color: orange;
+}
+
+.travelo a:hover {
+    color: tomato;
 }
 
 .company {
-    width: 15%;
+    width: 20%;
     height: 450px;
-    text-align: center;
-    padding: 55px;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.company h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 57px;
+}
+
+.company ul li a {
+    text-decoration: none;
+    color: #acacac;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.company li {
+    list-style: none;
+}
+
+.company a:hover {
+    color: tomato;
 }
 
 .popular-des {
     width: 25%;
     height: 450px;
-    padding-left: 100px;
-    padding-top: 55px;
+    padding-left: 35px;
+    padding-top: 80px;
+}
+
+.links-double {
+    display: flex;   
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.popular-des h3 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.popular-des ul li a {
+    color: #acacac;
+    text-decoration: none;
+}
+
+.popular-des li {  
+    list-style: none;
+}
+
+.links-double a:hover {
+    color: tomato;
 }
 
 .ig {
-    width: 30%;
+    width: 25%;
     height: 450px;
+    padding-left: 30px;
+    padding-top: 80px;
 }
 
-.brand-logo p {
-    font-size: 14px;
-    line-height: 26px;
-    color: #aab1b7;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.brand-logo a {
-    font-size: 14px;
-    line-height: 26px;
-    color: #aab1b7;
-}
-
-.footer-top .travelo {
-    padding: 100 0 0 70;
-}
-
-.company h3 {
-    font-size: 20px;
-    color: white;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.company p {
-    font-size: 14px;
-    line-height: 26px;
-    color: #aab1b7;
-    padding-top: 50px;
-}
-
-
-.des-title h3 {
-    font-size: 20px;
-    color: white;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.des-body {
+.ig-class {
     display: flex;
 }
 
-.des-body p {
-    font-size: 14px;
-    line-height: 26px;
-    color: #aab1b7;
-    padding-top: 50px;
-    padding-right: 50px;
-}
-
-.ig {
-    padding-top: 55px;
-    padding-left: 30px;
-}
-
 .ig h3 {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
-    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 70px;
+    width: 100%;
 }
 
-.ig img {
-    padding-top: 40px;
+.ig-class img {
+    border-radius: px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-style: none;
 }
 
 .footer-bot {
-    width: 100%;
-    height: 150px;
+   width: 100%;
+   height: 150px;
 }
 
 .top {
-    width: 90%;
-    height: 50px;
+    padding-top: 60px;
     padding-left: 100px;
+    padding-right: 100px;
 }
 
 .bot {
-    color: #fff;
-    width: 100%;
-    height: 150px;
     text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    color:#7a838b;
 }
 
 .bot a {
     color: red;
-    font-size: 24px;
 }
